@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Admin Panel"
+AuthUserFile "https://www.serega40in.ru/blog/admin/.htpasswd"
+Require valid-userAuthName 'Restricted Area'
+AuthUserFile /home/z/zone7/40in@zone7/.authfile
+require user  admin
+AuthName 'Restricted Area'
